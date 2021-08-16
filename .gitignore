@@ -1,3 +1,5 @@
 # Byte-compiled / optimized / DLL files
 $ cat .gitignore
 *__pycache__/
+*PARAMS/__pycache__
+*libs/__pycache__
