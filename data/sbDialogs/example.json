@@ -1,0 +1,52 @@
+{
+   "name":"Приветсвие",
+   "action":"welcome",
+   "description":"Начало диалога",
+   "audio":"https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_5MG.mp3",
+   "value":800,
+   "audioPlay":false,
+   "children":[
+      {
+         "name":"Отрицание",
+         "action":"negation",
+         "value":400,
+         "children":[
+            {
+               "name":"Аудио",
+               "action":"audio",
+               "value":400,
+               "children":[
+                  {
+                     "name":"Окончание звонка",
+                     "action":"ending",
+                     "value":400,
+                     "children":[
+                        
+                     ],
+                     "_key":"4e89cc50-5751-4f5d-9cd4-1226ae92ff61"
+                  }
+               ],
+               "_key":"a25fabaa-bf05-4a06-8099-16086ca60765"
+            }
+         ],
+         "_key":"3bca1aab-d6ba-4cf2-8987-e29781df4235"
+      },
+      {
+         "name":"Согласие",
+         "action":"consent",
+         "value":400,
+         "children":[
+            {
+               "name":"Перевод звонка",
+               "action":"transfer",
+               "value":400,
+               "children":[
+                  
+               ]
+            }
+         ],
+         "_key":"1bc4bde6-3c08-4205-8740-0e949ee2fb64"
+      }
+   ],
+   "_key":"c252b292-e2d6-412a-88e6-76749774141b"
+}
