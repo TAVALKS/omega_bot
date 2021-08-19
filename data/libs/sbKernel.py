@@ -1,4 +1,4 @@
-from data.PARAMS.sbActions import sbParams as SbParams
+from PARAMS.sbActions import sbParams as SbParams
 from random import choice  as _choice
 from bisect import bisect_left
 from time import sleep as sp
