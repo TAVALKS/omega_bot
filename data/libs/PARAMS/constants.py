@@ -1,7 +1,13 @@
-class intent:
+class INTENT:
+    MAIN_DIALOG = 'main_dialog'
 
-    class purposes:
+    class PURPOSES:
         ACTIONS = 'actions'
 
-        class purpose:
-            FIND = 'find'
+        class PURPOSE:
+            ASK     = 'ask'
+            SLEEP   = 'sleep'
+            SAY     = 'say'
+            FIND    = 'find'
+            SAYWITH = 'saywith'
+            EXIT    = 'exit'
